@@ -910,7 +910,7 @@ conatct Section Start
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 .conatct .container{
     max-width: 84%;
@@ -939,10 +939,10 @@ conatct Section Start
     background: transparent;
     border: 1px solid var(--white);
     color: var(--white);
-    font-size: 18px;
+    font-size: 20px;
 }
 .conatct .form label{
-    font-size: 18px;
+    font-size: 20px;
     color: var(--white);
 }
 .conatct .form textarea{
