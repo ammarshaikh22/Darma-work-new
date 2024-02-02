@@ -19,14 +19,13 @@ cross_bar.addEventListener('click', () => {
 Projet Section Start
 ===========================--*/
 
-const btns = document.querySelector('.btn');
+const btns = document.querySelector('.btns-2');
 const btn = document.querySelectorAll('.btn');
 const pro_img = document.querySelectorAll('.pro-images');
 
 
 btns.addEventListener('click', (e) => {
     const btn_clicked = e.target
-    if (!btn_clicked.classList.contains("btn")) return;
     btn.forEach((elem) => {
         btn_clicked.classList.add('active-btn')
         elem.classList.remove('active-btn')
