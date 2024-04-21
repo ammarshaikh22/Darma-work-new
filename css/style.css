@@ -210,6 +210,7 @@ Main We are Section Start
 .we-are .row {
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 
 .we-are .img {
@@ -362,7 +363,6 @@ Service Section part 2 Start
     display: flex;
     align-items: center;
     padding: 10px 20px;
-
 }
 
 .serv-container2 .row .box .box-txt {
